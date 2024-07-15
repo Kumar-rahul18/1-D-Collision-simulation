@@ -1,7 +1,5 @@
 # 1-D-Collision-simulation
 
-# Probabilistic-string-matching
-
 # Problem Summary
 
 We have \( n \) point objects in a one-dimensional, gravity-free universe. Each object has:
