@@ -25,6 +25,17 @@ The objects are numbered from left to right, so \( x_0 < x_1 < . . . . < x_{n-1}
 - **m**: A non-negative integer specifying the maximum number of collisions to record.
 - **T**: A non-negative float specifying the maximum time until which we need to record collisions.
 
+
+## Overview
+Simulates elastic collisions between `n` objects in a one-dimensional, gravity-free universe. The function calculates collisions based on given masses, initial positions, and velocities.
+
+## Features
+- Simulates up to `m` collisions or until time `T` is reached.
+- Outputs collisions in chronological order.
+- Handles elastic collisions conserving both momentum and kinetic energy.
+- Efficiently runs in O(n + m log n) time.
+
+
 ## Output:
 - A list of collision events (up to \( m \) events or until time \( T \) is reached), each represented as a tuple \((t, i, x)\).
 
